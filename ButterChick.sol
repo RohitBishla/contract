@@ -9,7 +9,8 @@ contract MyToken is ERC20, Ownable{
     uint8 private _decimal;
     uint rewardForRefer;
 
-    constructor() ERC20("ButterChick", "BTR") Ownable(msg.sender) public {
+    constructor() ERC20("ButterChick", "BTR") 
+    Ownable(msg.sender) {
         _decimal = decimals();
         _mint(msg.sender, 10**18);
     }
