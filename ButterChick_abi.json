@@ -1,4 +1,8 @@
-[
+// "use strict";
+// Object.defineProperty(exports, "__esModule", { value: true });
+// exports.ButterChickABI = void 0;
+// exports.
+ButterChickABI = [
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
@@ -463,4 +467,6 @@
 		"stateMutability": "view",
 		"type": "function"
 	}
-]
+];
+
+module.exports = ButterChickABI;
